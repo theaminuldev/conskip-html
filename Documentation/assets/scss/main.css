@@ -1,0 +1,424 @@
+/*
+========================================================================
+========================== B A S I C  S E T U P ========================
+========================================================================
+*/
+/*=============== Google Fonts ==============*/
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.3;
+  font-family: 'Hind Siliguri', sans-serif;
+  position: relative;
+}
+
+/*
+=======================================================
+======== R E U S A B L E  C O M P O N A N T S =========
+=======================================================
+*/
+section {
+  padding: 8.5rem 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Hind Siliguri', sans-serif;
+  letter-spacing: 0px;
+  font-weight: normal;
+  position: relative;
+  padding: 0 0 10px 0;
+  font-weight: normal;
+  line-height: 1.8;
+  color: #242424;
+}
+
+a {
+  color: #eba45c;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #2d9292fa;
+}
+
+.btn {
+  background: #eba45c;
+  text-transform: capitalize;
+  color: #ffffff;
+  padding: 1rem 2.5rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 2.5rem;
+  border-radius: 0.5rem;
+  line-height: 2.4rem;
+  border: 0.1rem solid #94C83D !important;
+}
+
+.btn:hover {
+  -webkit-box-shadow: 0px 20px 30px 6px rgba(241, 72, 5, 0.9);
+          box-shadow: 0px 20px 30px 6px rgba(241, 72, 5, 0.9);
+}
+
+h1 {
+  font-size: 4.8rem;
+  font-weight: 300;
+  margin-bottom: 0;
+  text-transform: capitalize;
+  padding-bottom: 0;
+}
+
+h2 {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 4.2rem;
+  color: #363F32;
+}
+
+h2::before {
+  content: '';
+  width: 15rem;
+  height: 0.1rem;
+  background: #363F32;
+  position: absolute;
+  top: 5rem;
+}
+
+h2 span {
+  font-size: 1.6rem;
+  color: #2d9292fa;
+  margin-left: 2rem;
+}
+
+h3 {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  color: #495C72;
+}
+
+h4 {
+  font-size: 2.1rem;
+}
+
+h5 {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  text-align: left;
+  line-height: 27px;
+  color: #363F32;
+}
+
+p {
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  line-height: 2.6rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  font-style: normal;
+  color: #777777;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+.title-description {
+  margin-top: 1.5rem;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  font-style: normal;
+  color: #777777;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+button, .btn, input, textarea, a.focus, :focus {
+  outline: none !important;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+/*========== Header Section =========*/
+#wrapper .navigation {
+  margin-top: 10rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5%;
+}
+
+#wrapper .navigation .main-menu li a {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: normal;
+  padding: 0.2rem 1rem;
+  margin-top: 1rem;
+  color: inherit;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#wrapper .navigation .main-menu li:hover a {
+  color: #eba45c;
+  border-left: 1.5px solid #eba45c;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/*========== Section Introduction =========*/
+#wrapper .section-intro .intro1 {
+  background: #f3f3f3;
+  padding: 3rem;
+  margin-top: 5rem;
+}
+
+#wrapper .section-intro .intro1 ul li {
+  font-size: 1.5rem;
+  list-style: none;
+  line-height: 2;
+}
+
+#wrapper .section-intro .intro1 ul li a {
+  color: #eba45c;
+}
+
+#wrapper .section-intro .intro1 ul li a:hover {
+  color: #50aaaa;
+}
+
+#wrapper .section-intro .intro-text p {
+  margin-top: 1.5rem;
+}
+
+#wrapper .section-intro .intro-text ol {
+  padding: 3rem;
+  background: #f3f3f3;
+}
+
+#wrapper .section-intro .intro-text ol li {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.6;
+}
+
+#wrapper .section-intro .intro-text .intro2.clearfix {
+  background: #eba45c;
+}
+
+#wrapper .section-intro .intro-text .clearfix {
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+#wrapper .section-intro .intro-text .clearfix p {
+  color: #ffffff;
+}
+
+/*========== HTML Stracture =========*/
+.html-stracture .code-area {
+  margin-top: 5rem;
+  font-size: 2rem;
+  border-radius: 4px;
+}
+
+.html-stracture .code-area .prettyprint {
+  background-color: #292d3e;
+  padding: 2rem 5rem;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e1e1e8;
+  -o-border-image: initial;
+     border-image: initial;
+  border-radius: 4px;
+}
+
+.html-stracture .code-area .prettyprint ol li {
+  color: #ffffff;
+}
+
+.html-stracture .code-area .prettyprint ol li::marker {
+  unicode-bidi: -webkit-isolate;
+  unicode-bidi: isolate;
+  font-variant-numeric: tabular-nums;
+  text-transform: none;
+}
+
+/*========== CSS Stracture =========*/
+.cssCode-section .sources h3 {
+  border-bottom: 0.1rem dotted #284254;
+  margin-top: 5rem;
+}
+
+.cssCode-section .sources ul li {
+  font-size: 1.6rem;
+  color: #4e5f83;
+  line-height: 1.8;
+  list-style: none;
+}
+
+.cssCode-section .prettyprint {
+  background-color: #292d3e;
+  padding: 2rem 5rem;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e1e1e8;
+  -o-border-image: initial;
+     border-image: initial;
+  border-radius: 4px;
+}
+
+.cssCode-section .prettyprint ol li {
+  color: #ffffff;
+}
+
+.cssCode-section .prettyprint ol li::marker {
+  unicode-bidi: -webkit-isolate;
+  unicode-bidi: isolate;
+  font-variant-numeric: tabular-nums;
+  text-transform: none;
+}
+
+/*========== javaScript-stracture =========*/
+.javaScript-stracture .sources h3 {
+  border-bottom: 0.1rem dotted #284254;
+  margin-top: 5rem;
+}
+
+.javaScript-stracture .sources ul li {
+  font-size: 1.6rem;
+  color: #4e5f83;
+  line-height: 1.8;
+  list-style: none;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.javaScript-stracture .sources ul li .list-text {
+  display: block;
+}
+
+.javaScript-stracture .sources ul li b {
+  min-width: 10rem;
+}
+
+.javaScript-stracture .sources ul li .fa-hand-o-right {
+  margin: 0 2rem;
+}
+
+.javaScript-stracture .prettyprint {
+  background-color: #292d3e;
+  padding: 2rem 5rem;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e1e1e8;
+  -o-border-image: initial;
+     border-image: initial;
+  border-radius: 4px;
+}
+
+.javaScript-stracture .prettyprint ol li {
+  color: #ffffff;
+  line-height: 1.8;
+}
+
+.javaScript-stracture .prettyprint ol li::marker {
+  unicode-bidi: -webkit-isolate;
+  unicode-bidi: isolate;
+  font-variant-numeric: tabular-nums;
+  text-transform: none;
+}
+
+/*========== SOURCES & CREDITS =========*/
+.sources-section .main-section-head p {
+  font-size: 2.1rem;
+}
+
+.sources-section .sources h3 {
+  border-bottom: 0.1rem dotted #284254;
+  margin-top: 5rem;
+}
+
+.sources-section .sources ul li {
+  font-size: 1.6rem;
+  color: #4e5f83;
+  line-height: 1.8;
+  list-style: none;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.sources-section .sources ul li .list-text {
+  display: block;
+}
+
+.sources-section .sources ul li b {
+  min-width: 10rem;
+}
+
+.sources-section .sources ul li .fa-hand-o-right {
+  margin: 0 2rem;
+}
+
+/*========== Template Customization =========*/
+.customization .main-section-head {
+  margin-top: 5rem;
+}
+
+.customization .main-section-head p {
+  font-size: 2.1rem;
+}
+
+.customization .sources h3 {
+  border-bottom: 0.1rem dotted #284254;
+  margin-top: 5rem;
+}
+
+.customization .sources ul li {
+  font-size: 1.6rem;
+  color: #4e5f83;
+  line-height: 1.8;
+  list-style: none;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.customization .sources ul li .list-text {
+  display: block;
+}
+
+.customization .sources ul li b {
+  min-width: 10rem;
+}
+
+.customization .sources ul li .fa-hand-o-right {
+  margin: 0 2rem;
+}
+
+.customization .copyright {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 5rem 0;
+  margin-bottom: 8rem;
+}
+/*# sourceMappingURL=main.css.map */

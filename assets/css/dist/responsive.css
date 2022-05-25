@@ -1,0 +1,419 @@
+/*--- Color ---*/
+/*--- Font Family ---*/
+@media (max-width: 1199px) {
+  .inner-logo {
+    display: block;
+    margin-top: 56px;
+    margin-left: 28px;
+  }
+
+  .hamburger {
+    display: block !important;
+    position: relative;
+    width: 40px !important;
+    height: 30px !important;
+    margin: 1.8rem 0;
+    cursor: pointer;
+    border: 3px solid transparent !important;
+    float: right;
+  }
+  .hamburger:focus {
+    border: 3px solid transparent !important;
+  }
+
+  .top-search-bar {
+    position: absolute;
+    right: 10%;
+    top: 3.5rem;
+  }
+  .top-search-bar a i::before {
+    color: #707070;
+    font-size: 2.4rem;
+  }
+
+  .searchbox-submit {
+    margin-top: 1rem;
+    padding: 0 1.8rem;
+    height: 100%;
+    overflow: hidden;
+    background: #D21756;
+    border: none;
+    display: flex;
+    flex-direction: row;
+  }
+  .searchbox-submit i:before {
+    font-size: 2rem;
+    color: #ffffff;
+  }
+
+  header .header-area .main-nav ul li ul.sub-menu > li a::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0 !important;
+    height: 2px;
+    content: "";
+    background-color: #FFFFFF;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .main-nav > ul > li > a {
+    font-size: 1rem !important;
+    color: #fff !important;
+    line-height: 35px;
+    margin: 10px 0;
+  }
+
+  header .header-area .main-nav ul li a {
+    padding: 0 !important;
+  }
+
+  header .header-area .main-nav ul li a::before {
+    bottom: 0rem !important;
+  }
+
+  .main-nav ul > li a.active::before {
+    opacity: 1 !important;
+  }
+
+  .main-nav ul > li a:hover {
+    background: transparent;
+  }
+
+  .main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    padding: 10px 15px !important;
+    z-index: 99999;
+    height: 100%;
+    overflow: auto;
+    background: #000;
+    transform: translateX(-250px);
+    transition: transform 0.3s ease-in;
+  }
+
+  .hamburger span {
+    width: 100%;
+    height: 3px;
+    background: #707070 !important;
+    display: block;
+    position: absolute;
+    right: 0;
+    transition: all 0.3s;
+  }
+
+  .hamburger span.h-top {
+    top: 0;
+  }
+
+  .hamburger span.h-bottom {
+    bottom: 0.2rem;
+    width: 27px;
+  }
+
+  .hamburger span.h-middle {
+    top: 50%;
+    margin-top: -0.3rem;
+    width: 25px;
+  }
+
+  .hamburger.h-active span {
+    width: 80%;
+  }
+
+  .hamburger.h-active span.h-top {
+    transform: rotate(45deg);
+    top: 50%;
+    margin-top: -1px;
+  }
+
+  .hamburger.h-active span.h-middle {
+    transform: translateX(-30px);
+    opacity: 0;
+  }
+
+  .hamburger.h-active span.h-bottom {
+    transform: rotate(-45deg);
+    bottom: 50%;
+    margin-bottom: -1px;
+  }
+
+  .main-nav.slidenav {
+    transform: translateX(0);
+  }
+
+  .main-nav > ul {
+    float: none;
+    padding: 25px 10px;
+    margin-top: 40px !important;
+  }
+
+  .main-nav > ul > li > a:after {
+    content: none;
+  }
+
+  .main-nav > ul > li {
+    display: block;
+    padding: 0;
+    margin-left: 0;
+  }
+
+  header .header-area .main-nav ul li {
+    display: block;
+    position: relative;
+    padding: 0 20px;
+  }
+
+  .main-nav > ul > li a {
+    font-size: 16px;
+    color: #fff;
+    line-height: 35px;
+    margin: 10px 0;
+  }
+
+  .main-nav ul li .fl {
+    display: block;
+    line-height: 35px;
+  }
+
+  .main-nav ul li .sub-menu {
+    position: static;
+    min-width: 200px;
+    background: transparent;
+    border: none;
+    opacity: 1;
+    visibility: visible;
+    box-shadow: none;
+    transform: none;
+    transition: none;
+    display: none;
+  }
+
+  header .header-area .main-nav ul li ul.sub-menu > li a {
+    display: block;
+    padding: 12px 10px;
+    color: #fff;
+    font-size: 14px;
+    margin-left: 14px;
+  }
+
+  li a.active {
+    color: #D21756;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  li a.active::before {
+    position: absolute;
+    bottom: 3rem;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    content: "";
+    background-color: #ffffff;
+    opacity: 0 !important;
+    transition: all 200ms linear;
+  }
+}
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .slider-item .slider-content h2 {
+    font-size: 55px;
+    line-height: 60px;
+  }
+
+  .about-content-wrap .about-content h2, .section-head h2, .features-area .feature-content h2 {
+    font-size: 45px;
+    line-height: 52px;
+  }
+
+  .service-intro .service-intro-overlay h3 {
+    font-size: 16px;
+  }
+  .service-intro .service-intro-overlay h3 span {
+    font-size: 30px;
+  }
+
+  .service-card {
+    margin-top: 20px;
+    padding: 20px 15px;
+  }
+  .service-card h5 {
+    font-size: 18px;
+  }
+
+  .achievement-card h3 {
+    font-size: 40px;
+  }
+  .achievement-card h5 {
+    font-size: 18px;
+  }
+
+  .pricing-card .p-card-head .p-card-info h5 {
+    font-size: 16px;
+  }
+  .pricing-card .p-card-head .p-card-info h3 {
+    font-size: 14px;
+  }
+  .pricing-card .p-card-head .p-card-info h3 span {
+    font-size: 30px;
+  }
+  .pricing-card .p-card-features ul {
+    margin-left: 0;
+  }
+
+  .blog-card .blog-content .blog-info {
+    padding: 8px 20px;
+  }
+  .blog-card .blog-content .blog-bottom {
+    padding: 20px;
+  }
+  .blog-card .blog-content .blog-bottom p {
+    margin: 15px 0;
+  }
+
+  .newslatter-area .newslatter-wrap .newslatter-text h4 {
+    font-size: 28px;
+  }
+  .newslatter-area .newslatter-wrap .newslatter-text p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .slider-item .slider-content h2 {
+    font-size: 50px;
+    line-height: 55px;
+  }
+
+  .about-content-wrap .about-content h2, .section-head h2, .features-area .feature-content h2 {
+    font-size: 40px;
+    line-height: 47px;
+  }
+
+  .service-intro .service-intro-overlay h3 {
+    font-size: 16px;
+  }
+  .service-intro .service-intro-overlay h3 span {
+    font-size: 30px;
+  }
+
+  .service-card {
+    margin-top: 20px;
+    padding: 20px 15px;
+  }
+  .service-card h5 {
+    font-size: 18px;
+  }
+
+  .achievement-card h3 {
+    font-size: 40px;
+  }
+  .achievement-card h5 {
+    font-size: 18px;
+  }
+
+  .pricing-card .p-card-head .p-card-info h5 {
+    font-size: 16px;
+  }
+  .pricing-card .p-card-head .p-card-info h3 {
+    font-size: 14px;
+  }
+  .pricing-card .p-card-head .p-card-info h3 span {
+    font-size: 30px;
+  }
+  .pricing-card .p-card-features ul {
+    margin-left: 0;
+  }
+
+  .blog-card .blog-content .blog-info {
+    padding: 8px 20px;
+  }
+  .blog-card .blog-content .blog-bottom {
+    padding: 20px;
+  }
+  .blog-card .blog-content .blog-bottom p {
+    margin: 15px 0;
+  }
+
+  .newslatter-area .newslatter-wrap .newslatter-text h4 {
+    font-size: 28px;
+  }
+  .newslatter-area .newslatter-wrap .newslatter-text p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+/* Wide Mobile Layout: 480px. */
+/* Wide Mobile Layout: 480px. end */
+/* Tablet & Mobile Layout: 768px. */
+@media only screen and (max-width: 991px) {
+  .about-content-wrap {
+    margin-top: 40px;
+  }
+
+  .about-img-wrap .about-img-l {
+    margin-right: 20%;
+  }
+
+  .feature-content-wrap {
+    margin-top: 40px;
+  }
+
+  .review-bg {
+    text-align: center;
+  }
+
+  .newslatter-area .newslatter-wrap {
+    padding: 40px;
+  }
+
+  .footer-links.footer-widget {
+    margin-top: 50px;
+  }
+
+  .footer-contact.footer-widget {
+    margin-top: 50px;
+  }
+
+  .footer-area .footer-social-icon ul {
+    justify-content: center;
+  }
+
+  .footer-area .footer-contact .contact-box {
+    max-width: 400px;
+  }
+
+  .footer-info.footer-widget {
+    text-align: center;
+  }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+  .topbar-area .topbar-contact ul li {
+    font-size: 10px;
+  }
+
+  .topbar-area .topbar-contact ul {
+    margin-top: 6px;
+  }
+}
+@media only screen and (max-width: 575.98px) {
+  .slider-item .slider-content h2 {
+    font-size: 45px;
+    line-height: 52px;
+  }
+
+  .about-content-wrap .about-content h2, .section-head h2, .features-area .feature-content h2 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .topbar-area .topbar-social {
+    display: none;
+  }
+}

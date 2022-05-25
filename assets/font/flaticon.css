@@ -1,0 +1,233 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "flaticon";
+  src: url("./flaticon.ttf?e502e54a4e72e160cc4ccb604b4b81f4") format("truetype"), url("./flaticon.woff?e502e54a4e72e160cc4ccb604b4b81f4") format("woff"), url("./flaticon.woff2?e502e54a4e72e160cc4ccb604b4b81f4") format("woff2"), url("./flaticon.eot?e502e54a4e72e160cc4ccb604b4b81f4#iefix") format("embedded-opentype"), url("./flaticon.svg?e502e54a4e72e160cc4ccb604b4b81f4#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+  font-family: flaticon !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-edit:before {
+  content: "";
+}
+
+.flaticon-upload:before {
+  content: "";
+}
+
+.flaticon-menu:before {
+  content: "";
+}
+
+.flaticon-like:before {
+  content: "";
+}
+
+.flaticon-phone-call:before {
+  content: "";
+}
+
+.flaticon-email:before {
+  content: "";
+}
+
+.flaticon-arrow-pointing-to-right:before {
+  content: "";
+}
+
+.flaticon-linkedin:before {
+  content: "";
+}
+
+.flaticon-loupe:before {
+  content: "";
+}
+
+.flaticon-compass:before {
+  content: "";
+}
+
+.flaticon-interior-design:before {
+  content: "";
+}
+
+.flaticon-sketch:before {
+  content: "";
+}
+
+.flaticon-office:before {
+  content: "";
+}
+
+.flaticon-prototype:before {
+  content: "";
+}
+
+.flaticon-inspiration:before {
+  content: "";
+}
+
+.flaticon-person:before {
+  content: "";
+}
+
+.flaticon-briefing:before {
+  content: "";
+}
+
+.flaticon-add:before {
+  content: "";
+}
+
+.flaticon-business-and-trade:before {
+  content: "";
+}
+
+.flaticon-pin:before {
+  content: "";
+}
+
+.flaticon-paper-plane:before {
+  content: "";
+}
+
+.flaticon-target:before {
+  content: "";
+}
+
+.flaticon-vision:before {
+  content: "";
+}
+
+.flaticon-plans:before {
+  content: "";
+}
+
+.flaticon-blueprint:before {
+  content: "";
+}
+
+.flaticon-engineering:before {
+  content: "";
+}
+
+.flaticon-buildings:before {
+  content: "";
+}
+
+.flaticon-facebook:before {
+  content: "";
+}
+
+.flaticon-twitter:before {
+  content: "";
+}
+
+.flaticon-instagram:before {
+  content: "";
+}
+
+.flaticon-copyright:before {
+  content: "";
+}
+
+.flaticon-arrow-pointing-to-left:before {
+  content: "";
+}
+
+.flaticon-tick:before {
+  content: "";
+}
+
+.flaticon-pdf-file:before {
+  content: "";
+}
+
+.flaticon-view:before {
+  content: "";
+}
+
+.flaticon-user:before {
+  content: "";
+}
+
+.flaticon-calendar:before {
+  content: "";
+}
+
+.flaticon-folder:before {
+  content: "";
+}
+
+.flaticon-documents:before {
+  content: "";
+}
+
+.flaticon-idea:before {
+  content: "";
+}
+
+.flaticon-settings:before {
+  content: "";
+}
+
+.flaticon-shuttle:before {
+  content: "";
+}
+
+.flaticon-magnifying-glass:before {
+  content: "";
+}
+
+.flaticon-heart:before {
+  content: "";
+}
+
+.flaticon-back:before {
+  content: "";
+}
+
+.flaticon-conversation:before {
+  content: "";
+}
+
+.flaticon-world:before {
+  content: "";
+}
+
+.flaticon-full-screen:before {
+  content: "";
+}
+
+.flaticon-minus-sign:before {
+  content: "";
+}
+
+.flaticon-shopping-cart:before {
+  content: "";
+}
+
+.flaticon-minus:before {
+  content: "";
+}
+
+.flaticon-delete:before {
+  content: "";
+}
+
+.flaticon-reply-message:before {
+  content: "";
+}
+
+.flaticon-right-quote-sign:before {
+  content: "";
+}
+/*# sourceMappingURL=flaticon.css.map */
