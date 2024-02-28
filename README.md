@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/theaminuldev/personal-portfolio/blob/main/assets/images/banner.webp" alt="Conskip Theme Banner">
+  <img src="https://raw.githubusercontent.com/theaminuldev/conskip-html/main/assets/images/banner.webp" alt="Conskip Theme Banner">
 </div>
 
 # Conskip Multipurpose Construction and Shop HTML Theme
